@@ -29,9 +29,7 @@
 
 <section id="products" class="products-section">
 <h2>Popüler Çantalar</h2>
-<div class="products-grid" id="products-grid">
-<!-- JS ile yüklenecek -->
-</div>
+<div class="products-grid" id="products-grid"></div>
 </section>
 
 <section id="about" class="about-section">
