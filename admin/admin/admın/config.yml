@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "images/uploads" # Görseller bu klasöre gidecek
+media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
@@ -13,7 +13,6 @@ collections:
     slug: "{{title}}"
     fields:
       - {label: "Ürün Adı", name: "title", widget: "string"}
-      - {label: "Satış Fiyatı", name: "price", widget: "string"}
-      - {label: "Ürün Görseli", name: "image", widget: "image"}
+      - {label: "Fiyat", name: "price", widget: "string"}
+      - {label: "Görsel", name: "image", widget: "image"}
       - {label: "Shopier Linki", name: "shopier_url", widget: "string"}
-      - {label: "Ürün Açıklaması", name: "body", widget: "markdown", required: false}
